@@ -1,0 +1,621 @@
+/* best platform */
+.best-platform-container{
+    background-color: var(--bg-secondary);
+    color: var(--white);
+    border-radius: 0.5rem;
+    padding: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    transform: translateY(-50%);
+}
+.best-platform-container h1{
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin: 0;
+}
+.best-platform-content img{
+    width: 10rem;
+    height: 10rem;
+}
+.platform-item{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.platform-item > div{
+    border-radius: 0.5rem;
+    width: 16rem;
+    height: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.platform-item-admissions{
+    background-color: #4886ff;
+}
+.platform-item-events{
+    background-color: #ff6f6f;
+}
+.platform-item-programs{
+    background-color: #b5d56a;
+}
+.platform-item-courses{
+    background-color: #f6316f;
+}
+.platform-item-notice{
+    background-color: #009688;
+}
+.platform-item > div > a{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--white);
+}
+.platform-item > div > a h2{
+    margin: 1rem auto;
+}
+
+/* header of item content common */
+.header-item-common{
+    margin-bottom: 4rem;
+}
+.sec{
+    width: 5rem;
+    height: 0.3rem;
+    background-color: var(--orange);
+}
+.header-item-common h1{
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+
+/* Content about us, teacher common */
+.content-first-common{
+    padding-right: 5rem;
+}
+.content-first-common-content p{
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+    color: var(--text-secondary);
+}
+.content-first-common-content{
+    margin-bottom: 2rem;
+}
+
+/* about us */
+.about-us{
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+}
+.about-us-secondary{
+    box-shadow: 0px 0px 19rem 0px rgb(0 0 0 / 6%);
+    z-index: 1;
+}
+.about-us-secondary > div{
+    padding: 5rem;
+}
+.about-us-secondary-header h1{
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.about-us-sc-item{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.about-us-sc-item:last-child{
+    padding-bottom: 0;
+}
+.about-us-sc-item:not(:last-child){
+    border-bottom: 0.1rem solid var(--text-secondary);
+}
+.about-us-sc-item a{
+    text-decoration: none;
+    color: black;
+}
+.about-us-sc-item a:hover{
+    color: var(--orange);
+    transition: all 0.5s linear;
+}
+.about-us-sc-item h3{
+    font-size: 2.6rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
+.about-us-sc-item i{
+    color: var(--orange);
+}
+.about-us-sc-item span{
+    color: var(--text-secondary);
+}
+
+/* scholarship */
+.scholarship{
+    margin-bottom: 10rem;
+}
+.scholarship-first, .scholarship-secondary{
+    color: var(--white);
+    padding: 5rem;
+}
+.scholarship-container > div:first-child{
+    background-color: var(--bg-secondary);
+}
+.scholarship-container > div:last-child{
+    background-color: #092e56;
+}
+.scholarship-first h2, .scholarship-secondary h2{
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.scholarship button{
+    border: 0.2rem solid var(--bg-secondary);
+}
+.scholarship button:hover{
+    border: 0.2rem solid var(--white);
+}
+
+/* Our Facilities */
+
+.our-facilities{
+    padding-bottom: 5rem;
+}
+.our-facilities-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/edu-bg.jpg);
+    width: 100%;
+    margin: 0;
+    color: var(--white);
+}
+.our-fac-second-header h1{
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.our-facilities-second > div{
+    padding: 5rem;
+}
+.our-fac-sc-item{
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-fac-sc-item img{
+    margin-right: 2rem;
+    width: 7rem;
+    height: 7rem;
+}
+.our-fac-sc-item h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+    margin-bottom: 0;
+}
+.our-facilities-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem !important;
+}
+.our-facilities-first a{
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    background-color: var(--orange);
+    width: 8rem;
+    height: 8rem;
+    transition: hover 1s linear;
+}
+.our-facilities-first a:hover{
+    box-shadow: 0px 0px 1.5rem 0px var(--orange);
+
+}
+.our-facilities-first i{
+    position: absolute;
+    top: 3rem;
+    left: 3.2rem;
+    color: var(--white);
+    font-size: 2rem;
+}
+
+
+/* Teachers */
+
+.teachers-item .card{
+    border: none;
+    position: relative;
+
+}
+.teachers-item .card-img-top{
+    border-radius: 0.3rem;
+}
+.teachers-item{
+    padding-bottom: 3rem;
+}
+.teachers-item:nth-child(odd) {
+    padding-left: 0;
+}
+.teachers-item:nth-child(even){
+    padding-right: 0;
+}
+
+.teachers-card-content{
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+}
+.teachers-card-content > div{
+    text-align: center;
+    margin: 2rem 3rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    max-height: 8rem;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+}
+.teachers-card-content > div:hover{
+    max-height: 12rem;
+    
+}
+.teachers-card-content > div span{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: inline-block;
+    color: var(--text-secondary);
+}
+.teachers-card-content > div i{
+    font-size: 1.8rem;
+}
+.teachers-card-content a{
+    color: var(--bg-secondary);
+    text-decoration: none;
+    transition: all 0.5s linear;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.teachers-card-content a:hover{
+    color: var(--orange);
+}
+
+/* feedback */
+.feedback-box{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/student_background.jpg);
+    color: var(--white);
+}
+.feedback-bg{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    opacity: 0.9;
+    background-color: var(--bg-secondary);
+}
+.feedback-item-img{
+    position: relative;
+    margin-right: 5rem;
+}
+.feedback-item-img img{
+    border-radius: 0.3rem;
+}
+.feedback-item-img div{
+    position: absolute;
+    top: -2.5rem;
+    left: 6.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: var(--orange);
+    border-radius: 50%;
+}
+.feedback-item-img div i{
+    font-size: 2rem;
+    color: var(--bg-secondary);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.feedback-item-content{
+    padding: 5rem 5rem 0 0rem;
+    display: flex;
+}
+.feedback-item-info p{
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+.feedback-item-info h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.feedback-item-info p:last-child{
+    font-weight: 600;
+}
+.feedback-content .slick-dots li button{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: var(--white);
+    border-radius: 50%;
+}
+.feedback-content .slick-dots li button::before{
+    content: '';
+}
+.feedback-content .slick-dots li.slick-active button{
+    background-color: var(--orange);
+}
+
+/* Book Store */
+
+.book-store{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/featured_courses_background.png);
+    background-color: #f9f9f9;
+}
+.item-book-store .card{
+    background-color: transparent;
+    border: none;
+}
+.item-book-store .card-img{
+    padding: 3rem 3.5rem;
+    background-color: #edf0f2;
+    position: relative;
+}
+.book-store-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s linear;
+    z-index: -1;
+}
+.item-book-store .card:hover .book-store-bg{
+    background-color: var(--bg-secondary);
+    z-index: 1;
+    opacity: 0.8;
+}
+.item-book-store .card:hover .utilities{
+    z-index: 1;
+    top: 50%;
+}
+.utilities{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.5s linear;
+}
+.utilities a{
+    border: 0.1rem solid var(--orange);
+    padding: 0.8rem 1.2rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    color: var(--orange);
+    transition: all 0.5s linear;
+}
+.utilities a:hover{
+    color: var(--bg-secondary);
+    background-color: var(--orange);
+}
+.item-book-store .card-body{
+    text-align: center;
+    color: var(--bg-secondary);
+}
+.item-book-store .card-body h3{
+    margin: 1rem auto 2rem;
+}
+.item-book-store .card-body a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--bg-secondary);
+    transition: all 0.5s linear;
+}
+.item-book-store .card-body a:hover{
+    color: var(--orange);
+}
+
+/* From the news */
+
+
+.from-news{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.news-item:first-child{
+    padding-left: 0;
+}
+.news-item:last-child{
+    padding-right: 0;
+}
+.news-item .card{
+    border: none;
+    overflow: hidden;
+}
+.news-item img{
+    border-radius: 0.3rem;
+    transition: all 0.5s linear;
+    object-fit: cover;
+    height: 21rem;
+    overflow: hidden;
+
+}
+.news-item:hover img{
+    transform: scale(1.1);
+}
+.news-item a{
+    text-decoration: none;
+}
+.news-item .card-body{
+    padding: 0;
+    color: var(--text-secondary);
+}
+.news-info, .news-title, .news-item img{
+    padding-bottom: 2rem;
+}
+.news-info{
+    display: flex;
+}
+.news-info div:first-child{
+    margin-right: 2rem;
+}
+.news-info i{
+    color: var(--orange);
+    margin-right: 0.5rem;
+}
+.news-info a{
+    color: var(--text-secondary)
+}
+.news-title a{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--bg-secondary);
+    transition: all 0.5s linear;
+}
+.news-title a:hover{
+    color: var(--orange);
+}
+
+/* edubin icons */
+.edubin-icons{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/featured_courses_background.png);
+    background-color: #f9f9f9;
+}
+.icons-item{
+    display: flex !important;
+    justify-content: center;
+}
+
+/* modal */
+.modal-content{
+    border: none;
+    background: rgba(0, 0, 0, 0);
+}
+.modal-header-custom{
+    border: none;
+}
+.modal .close span{
+    color: var(--white);
+    font-size: 2.4rem;
+}
+
+@media (min-width: 992px) {
+    .news-item img{
+        height: 21rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .news-item img{
+        height: 21rem;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 767.98px) {
+    .our-facilities-container{
+        background-size: 500% !important;
+    }
+}
+@media (max-width: 992px) {
+    .best-platform-container{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .best-platform-container > div:first-child{
+        margin-bottom: 5rem;
+    }
+    .best-platform-container h1{
+        font-size: 3.4rem;
+    }
+    .content-first-common{
+        padding-right: 0;
+    }
+    .about-us-secondary{
+        padding-left: 0;
+    }
+    .scholarship-container > div:first-child{
+        margin-bottom: 3rem;
+    }
+    .news-item{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 767.98px) {
+    .best-platform-container h1{
+        font-size: 3.2rem;
+    }
+    .our-facilities-container{
+        background-position: center right;
+        background-size: cover;
+    }
+    .our-facilities-second > div{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .our-fac-sc-item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .our-fac-sc-item > div:first-child{
+        margin-bottom: 1rem;
+    }
+    .feedback-item-content{
+        display: block;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .header-book-store > div{
+        padding-bottom: 5rem;
+    }
+    .icons-item img{
+        width: 13rem;
+        height: 13rem;
+    }
+}
+@media (max-width: 576px) {
+    .best-platform-content img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .platform-item > div{
+        width: 14rem;
+        height: 14rem;
+    }
+    .about-us{
+        margin-top: -14rem;
+    }
+    .teachers-item{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .header-item-common h1, .our-fac-second-header h1{
+        font-size: 3.2rem;
+    }
+    .item-book-store .card-body h3 a{
+        font-size: 1.6rem;
+    }
+}
