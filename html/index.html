@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../library/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../library/node_modules/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="../library/node_modules/slick-carousel/slick/slick-theme.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/content.css">
+  <link rel="stylesheet" href="../css/thumbnail.css">
+  <link rel="stylesheet" href="../css/courses.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <title>Courses</title>
+</head>
+
+<body>
+  <header class="container-fluid pr-0 pl-0 sticky-top">
+    <button type="button" class="btn-back-to-top" id="btn-back-to-top"><i class="fas fa-chevron-up"></i></button>
+    <div class="header-top pt-3 pb-3 container-fluid">
+      <div class="container-xl pl-0 pr-0 d-flex justify-content-center">
+        <ul class="d-md-flex d-none mb-0 list-unstyled flex-grow-1">
+          <li class="mr-4">
+            <i class="text-white far fa-envelope"></i>
+            <a class="ml-2 text-decoration-none header-top__a" href="#">info@yoursite.com</a>
+          </li>
+          <li class="">
+            <span class="text-white">
+              <i class="fal fa-phone-alt"></i>
+              <span class="ml-2">123-456-7890</span>
+            </span>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <div class="mr-4">
+            <ul class="d-flex mb-0 list-unstyled">
+              <li class="text-white d-md-inline d-none">
+                <span class="follow-us">Follow Us :</span>
+              </li>
+              <li class="pr-3 pl-3">
+                <a class="text-decoration-none header-top__a" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="pr-3 pl-3">
+                <a class="text-decoration-none header-top__a" href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="pr-3 pl-3">
+                <a class="text-decoration-none header-top__a" href="#">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li class="pr-3 pl-3">
+                <a class="text-decoration-none header-top__a" href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="login-register">
+            <ul class="d-flex mb-0 list-unstyled">
+              <li class="pr-3 pl-3">
+                <a class="text-decoration-none" href="#">Login</a>
+              </li>
+              <li class="text-white">
+                <span>/</span>
+              </li>
+              <li class="pr-3 pl-3">
+                <a class="text-decoration-none" href="./register.html">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-content container-fluid" id="headerContent">
+      <div class="container-xl pl-0 pr-0 d-flex">
+        <div class="header-logo pt-4 pb-4 mr-auto">
+          <a href="index.html" rel="home">
+            <img src="../image/logo.png" alt="Edubin">
+          </a>
+        </div>
+        <div class="d-flex align-items-center mr-4">
+          <div class="nav-mobile d-lg-none d-block">
+            <div id="btnToggle" class="btn-toggle">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div id="navMobile" class="nav-mobile-content">
+              <ul class="nav-mobile-level-1 list-unstyled">
+                <li>
+                  <div>
+                    <a class="action" href="#">
+                      <span>Home</span>
+                    </a>
+                    <i class="fas fa-plus"></i>
+                  </div>
+                  <ul class="list-unstyled nav-mobile-level-2">
+                    <li>
+                      <a href="#"><span>All Home Demo</span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">
+                      <span>Courses</span>
+                    </a>
+                    <i class="fas fa-plus"></i>
+                  </div>
+                  <ul class="list-unstyled nav-mobile-level-2">
+                    <li>
+                      <a href="#">
+                        <span>Tutor Dashboard</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Student Registration</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Instructor Registration</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Course Grid Variations</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Advanced Course Filter</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Paid Course Single</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Free Course Single</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">
+                      <span>Pages</span>
+                    </a>
+                    <i class="fas fa-plus"></i>
+                  </div>
+                  <ul class="list-unstyled nav-mobile-level-2">
+                    <li>
+                      <a href="#">
+                        <span>About Us</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Pricing Table</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Teachers</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>404 Page</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>FAQs</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">
+                      <span>Events</span>
+                    </a>
+                    <i class="fas fa-plus"></i>
+                  </div>
+                  <ul class="list-unstyled nav-mobile-level-2">
+                    <li>
+                      <a href="#">
+                        <span>Events Calendar</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Events Archive</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Events Grid</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Single Events 1</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Single Events 2</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">
+                      <span>Blogs</span>
+                    </a>
+                    <i class="fas fa-plus"></i>
+                  </div>
+                  <ul class="list-unstyled nav-mobile-level-2">
+                    <li>
+                      <a href="#">
+                        <span>Blog Lists</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Blog Grid</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Blog Single</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">
+                      <span>Shops</span>
+                    </a>
+                    <i class="fas fa-plus"></i>
+                  </div>
+                  <ul class="list-unstyled nav-mobile-level-2">
+                    <li>
+                      <a href="#">
+                        <span>Book Shop</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>Shop Single</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">
+                      <span>Concact</span>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav-web d-lg-block d-none">
+            <ul class="nav-web-level-1 list-unstyled d-flex align-items-center mb-0">
+              <li>
+                <a class="action" href="#">
+                  <span>HOME</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <ul class="list-unstyled nav-web-level-2">
+                  <li>
+                    <a href="#"><span>All Home Demo</span></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">
+                  <span>COURSES</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <ul class="list-unstyled nav-web-level-2">
+                  <li>
+                    <a href="#">
+                      <span>Tutor Dashboard</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Student Registration</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Instructor Registration</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Course Grid Variations</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Advanced Course Filter</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Paid Course Single</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Free Course Single</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">
+                  <span>PAGES</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <ul class="list-unstyled nav-web-level-2">
+                  <li>
+                    <a href="#">
+                      <span>About Us</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Pricing Table</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Teachers</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>404 Page</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>FAQs</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">
+                  <span>EVENTS</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <ul class="list-unstyled nav-web-level-2">
+                  <li>
+                    <a href="#">
+                      <span>Events Calendar</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Events Archive</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Events Grid</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Single Events 1</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Single Events 2</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">
+                  <span>BLOGS</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <ul class="list-unstyled nav-web-level-2">
+                  <li>
+                    <a href="#">
+                      <span>Blog Lists</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Blog Grid</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Blog Single</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">
+                  <span>SHOPS</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <ul class="list-unstyled nav-web-level-2">
+                  <li>
+                    <a href="#">
+                      <span>Book Shop</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Shop Single</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">
+                  <span>CONTACT</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header-cart-search d-flex align-items-center mr-5">
+          <a class="mr-1 p-2" href="#">
+            <i class="fas fa-search"></i>
+          </a>
+          <a class="pl-2 header-cart position-relative" href="#">
+            <i class="fas fa-cart-plus"></i>
+            <span class="position-absolute">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="content container-fluid pl-0 pr-0">
+    <div id="carouselThumbnailControls" class="carousel-thumbnail carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="thumbnail thumb-item-first carousel-item active">
+          <div class="thumbnail-content container-xl pr-xl-0 pl-xl-0 d-flex flex-column justify-content-center">
+            <h1 class="font-weight-bold">Best LMS Education <br> WordPress Theme</h1>
+            <div class="subtitle">
+              <span>Lorem dummy text of the printing and
+                typesetting industry lorem ipsum has been the industry's standard dummy text.</span>
+            </div>
+            <div class="thumbnail-btn">
+              <button type="button" class="button-custom button-custom-orange">Apply Now</button>
+              <button type="button" class="button-custom button-custom-white">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="thumbnail thumb-item-secondary carousel-item">
+          <div class="thumbnail-content container-xl pr-xl-0 pl-xl-0 d-flex flex-column justify-content-center">
+            <h1 class="font-weight-bold">Choose The Right <br> Theme for Education</h1>
+            <div class="subtitle">
+              <span>Lorem dummy text of the printing and
+                typesetting industry lorem ipsum has been the industry's standard dummy text.</span>
+            </div>
+            <div class="thumbnail-btn">
+              <button type="button" class="button-custom button-custom-orange">Apply Now</button>
+              <button type="button" class="button-custom button-custom-white">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev custom-prev" href="#carouselThumbnailControls" role="button" data-slide="prev">
+          <span>
+            <i class="far fa-angle-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+          </span>
+        </a>
+        <a class="carousel-control-next custom-next" href="#carouselThumbnailControls" role="button" data-slide="next">
+          <span>
+            <i class="far fa-angle-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+          </span>
+        </a>
+      </div>
+    </div>
+    <div class="best-platform container-fluid">
+      <div class="best-platform-container container-xl row m-auto align-items-center">
+        <div class="col-lg-3 pl-0 pr-0">
+          <h1>Best Platform to Learn Everything</h1>
+        </div>
+        <div class="best-platform-content slick-best-platform pl-0 pr-0 col-lg-8 offset-lg-1">
+          <div class="platform-item">
+            <div class="platform-item-notice">
+              <a href="#">
+                <img src="../image/notice.png" alt="">
+                <h2>Notice</h2>
+              </a>
+            </div>
+          </div>
+          <div class="platform-item">
+            <div class="platform-item-programs">
+              <a href="#">
+                <img src="../image/programs.png" alt="">
+                <h2>Programs</h2>
+              </a>
+            </div>
+          </div>
+          <div class="platform-item">
+            <div class="platform-item-events">
+              <a href="#">
+                <img src="../image/events.png" alt="">
+                <h2>Events</h2>
+              </a>
+            </div>
+          </div>
+          <div class="platform-item">
+            <div class="platform-item-courses">
+              <a href="#">
+                <img src="../image/courses.png" alt="">
+                <h2>Courser</h2>
+              </a>
+            </div>
+          </div>
+          <div class="platform-item">
+            <div class="platform-item-admissions">
+              <a href="#">
+                <img src="../image/admissions.png" alt="">
+                <h2>Adminssions</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-us container-fluid">
+      <div class="about-us-container container-xl pr-0 pl-0 row m-auto">
+        <div class="about-us-first content-first-common col-lg-6 pl-0">
+          <div class="header-item-common">
+            <h2 class="mb-4 font-weight-bold">About Us</h2>
+            <div class="sec mb-4">
+            </div>
+            <h1 class="mb-0">
+              Welcome to Edubin
+            </h1>
+          </div>
+          <div class="about-us-first-content content-first-common-content">
+            <p>Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat
+              ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum
+              velit. Nam nec tellus a odio tincidunt mauris.
+            </p>
+            <p>
+              Auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet .
+              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt mauris
+            </p>
+            <p>
+              Buci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet .
+              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt mauris
+            </p>
+          </div>
+          <div class="mb-5">
+            <button type="button" class="button-custom button-custom-orange">Apply Now</button>
+          </div>
+        </div>
+        <div class="about-us-secondary col-lg-6 pr-0 pl-0">
+          <div>
+            <div class="about-us-secondary-header">
+              <h1>Upcoming Events</h1>
+            </div>
+            <div class="about-us-secondary-content">
+              <div class="about-us-sc-item">
+                <a href="#">
+                  <h3>World University Convocation</h3>
+                </a>
+                <div>
+                  <i class="far fa-clock"></i>
+                  <span>12:00 AM To 11:59 PM</span>
+                </div>
+              </div>
+              <div class="about-us-sc-item">
+                <div>
+                  <i class="far fa-calendar-alt"></i>
+                  <span>31. May</span>
+                </div>
+                <a href="#">
+                  <h3>February Education Conferences</h3>
+                </a>
+                <div>
+                  <i class="far fa-clock"></i>
+                  <span> 12:00 AM To 1:30 AM</span>
+                </div>
+              </div>
+              <div class="about-us-sc-item">
+                <a href="#">
+                  <h3>The Games Education Summit</h3>
+                </a>
+                <div>
+                  <i class="far fa-clock"></i>
+                  <span>12:00 AM To 11:59 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scholarship container-fluid">
+      <div class="scholarship-container container-xl pl-0 pr-0 row m-auto">
+        <div class="col-lg-6 pr-0 pl-0">
+          <div class="scholarship-first">
+            <h2>Apply for Fall 2019</h2>
+            <div class="mb-5">
+              <p class="mb-0">Gravida nibh vel velit auctor aliquetn sollicitudirem sem quibibendum auci elit cons equat
+                ipsutis sem
+                nibh id elituis sed odio sit amet nibh vulputate cursus equat ipsutis.</p>
+            </div>
+            <div>
+              <button type="button" class="button-custom button-custom-orange">Apply Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 pr-0 pl-0">
+          <div class="scholarship-secondary">
+            <h2>Apply for Scholarship</h2>
+            <div class="mb-5">
+              <p class="mb-0">Sollicitudirem sem quibibendum auci elit cons equat ipsutis sem nibh id elituis sed odio
+                sit amet nibh
+                vulputate cursus equat ipsutis gravida nibh vel velit auctor aliquetn.</p>
+            </div>
+            <div>
+              <button type="button" class="button-custom button-custom-orange">Apply Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="our-courses container-fluid">
+      <div class="our-courses-container container-xl pr-0 pl-0">
+        <div class="header-item-common">
+          <h2 class="mb-4 font-weight-bold">Our Courses</h2>
+          <div class="sec mb-4">
+          </div>
+          <h1 class="mb-0">
+            Featured Courses
+          </h1>
+        </div>
+        <div class="our-courses-content d-flex justify-content-center">
+          <div class="slick-our-courses w-100 pl-0 pr-0 ml-0" id="ourCourses">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="our-facilities">
+      <div class="our-facilities-container row">
+        <div class="our-facilities-first col-md-6 p-0">
+          <div>
+            <a class="play-btn e97c135bla-2" data-toggle="modal" data-target="#exampleModal">
+              <i class="fas fa-play"></i>
+            </a>
+          </div>
+        </div>
+        <div class="our-facilities-second col-md-6 p-0">
+          <div>
+            <div class="our-fac-second-header">
+              <h1>Our Facilities</h1>
+            </div>
+            <div class="our-fac-second-content">
+              <div class="our-fac-sc-item">
+                <div>
+                  <img src="../image/facilites_certificate.png" alt="">
+                </div>
+                <div>
+                  <h3>Global Certificate</h3>
+                  <div>
+                    Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.
+                  </div>
+                </div>
+              </div>
+              <div class="our-fac-sc-item">
+                <div>
+                  <img src="../image/facilites_support.png" alt="">
+                </div>
+                <div>
+                  <h3>Alumni Support</h3>
+                  <div>
+                    Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.
+                  </div>
+                </div>
+              </div>
+              <div class="our-fac-sc-item">
+                <div>
+                  <img src="../image/facilites_book.png" alt="">
+                </div>
+                <div>
+                  <h3>Books & Library</h3>
+                  <div>
+                    Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="teachers container-fluid">
+      <div class="teachers-container container-xl pr-0 pl-0 row m-auto">
+        <div class="content-first-common col-lg-6 pl-0">
+          <div class="header-item-common">
+            <h2 class="mb-4 font-weight-bold">Teachers</h2>
+            <div class="sec mb-4">
+            </div>
+            <h1 class="mb-0">
+              Meet our Teachers
+            </h1>
+          </div>
+          <div class="content-first-common-content">
+            <p>Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat
+              ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum
+              velit. Nam nec tellus a odio tincidunt mauris.
+            </p>
+            <p>
+              Auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet .
+              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt mauris
+            </p>
+            <p>
+              Buci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet .
+              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt mauris
+            </p>
+          </div>
+          <div class="mb-5">
+            <button type="button" class="button-custom button-custom-orange">Career With Us</button>
+          </div>
+        </div>
+        <div class="teachers-second col-lg-6 pr-0 pl-0">
+          <div class="row row-cols-sm-2 row-cols-1 m-0">
+            <div class="col teachers-item">
+              <div class="card">
+                <img class="card-img-top" src="../image/teacher_1.jpg" alt="Card image cap">
+                <div class="teachers-card-content">
+                  <div>
+                    <h3 class="mb-0 font-weight-bold"><a href="#">Damian Green</a></h3>
+                    <div>
+                      <span>Chairman</span>
+                    </div>
+                    <div>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="$"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col teachers-item">
+              <div class="card">
+                <img class="card-img-top" src="../image/teacher_1.jpg" alt="Card image cap">
+                <div class="teachers-card-content">
+                  <div>
+                    <h3 class="mb-0 font-weight-bold"><a href="#">Damian Green</a></h3>
+                    <div>
+                      <span>Chairman</span>
+                    </div>
+                    <div>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="$"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col teachers-item">
+              <div class="card">
+                <img class="card-img-top" src="../image/teacher_1.jpg" alt="Card image cap">
+                <div class="teachers-card-content">
+                  <div>
+                    <h3 class="mb-0 font-weight-bold"><a href="#">Damian Green</a></h3>
+                    <div>
+                      <span>Chairman</span>
+                    </div>
+                    <div>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="$"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col teachers-item">
+              <div class="card">
+                <img class="card-img-top" src="../image/teacher_1.jpg" alt="Card image cap">
+                <div class="teachers-card-content">
+                  <div>
+                    <h3 class="mb-0 font-weight-bold"><a href="#">Damian Green</a></h3>
+                    <div>
+                      <span>Chairman</span>
+                    </div>
+                    <div>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="$"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feedback-box">
+      <div class="feedback-bg">
+        <div class="container-xl pr-xl-0 pl-xl-0 container-fluid">
+          <div class="feedback">
+            <div class="content-first-common">
+              <div class="header-item-common">
+                <h2 class="mb-4 font-weight-bold">Feedback</h2>
+                <div class="sec mb-4">
+                </div>
+                <h1 class="mb-0">
+                  What Students Say
+                </h1>
+              </div>
+            </div>
+            <div class="feedback-content">
+              <div class="slick-feedback w-100 pl-0 pr-0 ml-0">
+                <div class="feedback-item">
+                  <div class="feedback-item-content">
+                    <div class="feedback-item-img">
+                      <img src="../image/student_1.jpg" alt="student">
+                      <div><i class="fas fa-quote-right"></i></div>
+                    </div>
+                    <div class="feedback-item-info">
+                      <p>I recommend these courses to everyone, and wish you, guys, luck with the new studies! Lorem
+                        ipsum dolor sit amet consectetur adipisicing.</p>
+                      <h3>Monica Blews</h3>
+                      <p>UX Designer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="feedback-item">
+                  <div class="feedback-item-content">
+                    <div class="feedback-item-img">
+                      <img src="../image/student_2.jpg" alt="student">
+                      <div><i class="fas fa-quote-right"></i></div>
+                    </div>
+                    <div class="feedback-item-info">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+                        labore et dolore Lorem ipsum dolor sit amet.</p>
+                      <h3>James Smith</h3>
+                      <p>Apps Developer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="feedback-item">
+                  <div class="feedback-item-content">
+                    <div class="feedback-item-img">
+                      <img src="../image/student_3.jpg" alt="student">
+                      <div><i class="fas fa-quote-right"></i></div>
+                    </div>
+                    <div class="feedback-item-info">
+                      <p>I am grateful for your wonderful course! Your tutors are the best, and I am completely
+                        satisfied with the level of professional teaching.</p>
+                      <h3>Eleanor Baker</h3>
+                      <p>CFO Apple Corp</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="book-store">
+      <div class="book-store-container container-xl pl-xl-0 pr-xl-0 container-fluid">
+        <div class="header-book-store header-item-common d-md-flex justify-content-between align-items-center">
+          <div>
+            <h2 class="mb-4 font-weight-bold">Book Store</h2>
+            <div class="sec mb-4">
+            </div>
+            <h1 class="mb-0">
+              Publications
+            </h1>
+          </div>
+          <div>
+            <button type="button" class="button-custom button-custom-orange">All Products</button>
+          </div>
+        </div>
+        <div class="book-store-content">
+          <div class="row m-0">
+            <div class="item-book-store col-md-3 col-6">
+              <div class="card">
+                <div class="card-img">
+                  <div class="book-store-bg"></div>
+                  <img class="card-img-top" src="../image/book.jpg" alt="Card image cap">
+                  <div class="utilities">
+                    <a href="#"><i class="fal fa-cart-plus"></i></a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="#">Book 9</a></h3>
+                  <h4>£45</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item-book-store col-md-3 col-6">
+              <div class="card">
+                <div class="card-img">
+                  <div class="book-store-bg"></div>
+                  <img class="card-img-top" src="../image/book_1.jpg" alt="Card image cap">
+                  <div class="utilities">
+                    <a href="#"><i class="fal fa-cart-plus"></i></a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="#">React JS</a></h3>
+                  <h4>£20</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item-book-store col-md-3 col-6">
+              <div class="card">
+                <div class="card-img">
+                  <div class="book-store-bg"></div>
+                  <img class="card-img-top" src="../image/book_2.jpg" alt="Card image cap">
+                  <div class="utilities">
+                    <a href="#"><i class="fal fa-cart-plus"></i></a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="#">Learn JavaScript</a></h3>
+                  <h4>£65</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item-book-store col-md-3 col-6">
+              <div class="card">
+                <div class="card-img">
+                  <div class="book-store-bg"></div>
+                  <img class="card-img-top" src="../image/book_3.jpg" alt="Card image cap">
+                  <div class="utilities">
+                    <a href="#"><i class="fal fa-cart-plus"></i></a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="#">Book 6</a></h3>
+                  <h4>£90</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="from-news">
+      <div class="from-news-container container-xl pr-xl-0 pl-xl-0 container-fluid">
+        <div class="header-item-common">
+          <h2 class="mb-4 font-weight-bold">From the News</h2>
+          <div class="sec mb-4">
+          </div>
+          <h1 class="mb-0">
+            Latest News
+          </h1>
+        </div>
+        <div class="from-news-content">
+          <div class="row m-auto">
+            <div class="news-item col-lg-4">
+              <div class="card">
+                <div class="card-img">
+                  <img class="card-img-top" src="../image/news_image_1.jpeg" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <div class="news-info">
+                    <div>
+                      <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <span> 17 JULY 2019</span>
+                      </a>
+                    </div>
+                    <div>
+                      <i class="far fa-user"></i>
+                      <a href="#">MARK ALEN</a>
+                    </div>
+                  </div>
+                  <div class="news-title"><a href="#">How to Learn English Fast and Easy</a></div>
+                  <p class="mb-4">Scelerisque ante platea nullam himenaeos quam sollicitudin ullamcorper sodales
+                    tristique</p>
+                </div>
+              </div>
+            </div>
+            <div class="news-item col-lg-4">
+              <div class="card">
+                <div class="card-img">
+                  <img class="card-img-top" src="../image/news_image_2.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <div class="news-info">
+                    <div>
+                      <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <span> 16 JULY 2019</span>
+                      </a>
+                    </div>
+                    <div>
+                      <i class="far fa-user"></i>
+                      <a href="#">MARK ALEN</a>
+                    </div>
+                  </div>
+                  <div class="news-title"><a href="#">How to Learn Faster and Remember</a></div>
+                  <p class="mb-4">Scelerisque ante platea nullam himenaeos quam sollicitudin ullamcorper sodales
+                    tristique</p>
+                </div>
+              </div>
+            </div>
+            <div class="news-item col-lg-4">
+              <div class="card">
+                <div class="card-img">
+                  <img class="card-img-top" src="../image/news_image_3.jpeg" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <div class="news-info">
+                    <div>
+                      <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <span> 15 JULY 2019</span>
+                      </a>
+                    </div>
+                    <div>
+                      <i class="far fa-user"></i>
+                      <a href="#">MARK ALEN</a>
+                    </div>
+                  </div>
+                  <div class="news-title"><a href="#">Free Online Courses from Top Universities</a></div>
+                  <p class="mb-4">Scelerisque ante platea nullam himenaeos quam sollicitudin ullamcorper sodales
+                    tristique</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="edubin-icons">
+      <div class="edubin-icons-container container-xl pr-xl-0 pl-xl-0 container-fluid">
+        <div class="slick-edubin-icons">
+          <div class="icons-item">
+            <img src="../image/icon1.png" alt="">
+          </div>
+          <div class="icons-item">
+            <img src="../image/icon2.png" alt="">
+          </div>
+          <div class="icons-item">
+            <img src="../image/icon3.png" alt="">
+          </div>
+          <div class="icons-item">
+            <img src="../image/icon4.png" alt="">
+          </div>
+          <div class="icons-item">
+            <img src="../image/icon5.png" alt="">
+          </div>
+          <div class="icons-item">
+            <img src="../image/icon1.png" alt="">
+          </div>
+          <div class="icons-item">
+            <img src="../image/icon2.png" alt="">
+          </div>
+          <div class="icons-item">
+            <img src="../image/icon3.png" alt="">
+          </div>
+          <div class="icons-item">
+            <img src="../image/icon4.png" alt="">
+          </div>
+          <div class="icons-item">
+            <img src="../image/icon5.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="youtube-modal">
+      <div class="modal fade" id="exampleModal" data-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header modal-header-custom">
+              <button id="closeModal" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe id="cartoonVideo" class="embed-responsive-item" width="560" height="315"
+                  src="//www.youtube.com/embed/YE7VzlLtp-4" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer container-fluid pl-0 pr-0">
+    <div class="footer-main">
+      <div class="container-xl pl-xl-0 pr-xl-0 container-fluid row m-auto footer-main-container">
+        <div class="edubins col-xl-3 col-md-6">
+          <a href="#"><img src="../image/white-logo.png" alt="white logo"></a>
+          <p>Edubin perfect for online courses and other institutes. It’s a complete solution with lms features and
+            functionalities.</p>
+          <div class="edubins-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="feature-links col-xl-3 col-md-6">
+          <h3>Feature Links</h3>
+          <div class="row">
+            <ul class="fl-content-first col-6">
+              <li><i class="fal fa-angle-right"></i><a href="#">About Us</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">Graduation</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">Scholarship</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">Contact</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">Result</a></li>
+            </ul>
+            <ul class="fl-content-second col-6">
+              <li><i class="fal fa-angle-right"></i><a href="#">Admissions</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">International</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">Teachers</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">Alumni</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">Events</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="support col-xl-3 col-md-6">
+          <h3>Support</h3>
+          <div class="support-content">
+            <ul class="support-container">
+              <li><i class="fal fa-angle-right"></i><a href="#">Language</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">WordPress</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">Privacy</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">FAQs</a></li>
+              <li><i class="fal fa-angle-right"></i><a href="#">Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact col-xl-3 col-md-6">
+          <h3>Contact Us</h3>
+          <div class="contact-content">
+            <p>203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</p>
+            <div>
+              <div><i class="fas fa-phone-volume"></i><span> +1 23-4567-8920</span></div>
+              <div><i class="far fa-envelope"></i><span> info@yourmail.com</span></div>
+              <div><i class="fas fa-globe"></i><span>www.yourdomain.com</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container pl-0 pr-0 d-flex align-items-center flex-wrap">
+        <div class="mr-auto">© 2021 Pixelcurve. All rights reserved.</div>
+        <ul>
+          <li><a href="#">Language</a></li>
+          <li><a href="#">WordPress</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="../library/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../library/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="../library/node_modules/slick-carousel/slick/slick.min.js"></script>
+  <script src="../js/header.js"></script>
+  <script src="../js/content.js"></script>
+</body>
+
+</html>

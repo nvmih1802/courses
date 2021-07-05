@@ -1,0 +1,115 @@
+.carousel-thumbnail{
+    z-index: 0;
+}
+.thumbnail{
+    max-width: 100%;
+    height: 82rem;
+    color: var(--white);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+.thumb-item-first{
+    background-image: url(../image/thumbnail_1.jpg);
+}
+.thumb-item-secondary{
+    background-image: url(../image/thumbnail_2.jpg);
+}
+.thumbnail-content{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.thumbnail-content h1{
+    font-size: 6rem;
+    margin-top: 18rem;
+    margin-bottom: 3rem;
+}
+.subtitle{
+    margin-right: 43%;
+    margin-bottom: 4rem;
+}
+.subtitle span{
+    font-size: 2rem;
+}
+.thumbnail-btn button:first-child{
+    margin-right: 1.5rem;
+}
+.button-custom{
+    color: var(--bg-secondary);
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1.5rem 2.5rem;
+    text-align: center;
+}
+.button-custom-orange{
+    background-color: var(--orange);
+}
+.button-custom-white{
+    background-color: var(--white);
+}
+.button-custom:hover{
+    color: var(--white);
+    background-color: var(--bg-secondary);
+    transition: all 0.5s linear;
+}
+.custom-prev{
+    left: -4rem;
+    top: 50%;
+    bottom: auto;
+}
+.custom-next{
+    right: -4rem;
+    top: 50%;
+    bottom: auto;
+}
+.custom-prev > span, .custom-next > span{
+    border: 0.1rem solid var(--white);
+    position: relative;
+    padding: 2rem;
+    border-radius: 50%;
+}
+.custom-prev > span > i, .custom-next > span > i{
+    font-size: 2.4rem;
+    position: absolute;
+    top: 0.8rem;
+    left: 1.5rem;
+}
+@media (max-width: 992px) {
+    .custom-prev{
+        left: 0rem;
+    }
+    .custom-next{
+        right: 0rem;
+    }
+    .subtitle{
+        margin-right: 5rem
+    }
+}
+@media (max-width: 768px) {
+    .thumbnail-content h1{
+        font-size: 4.8rem;
+    }
+    .subtitle{
+        margin-right: 3rem;
+    }
+    .subtitle span{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 576px) {
+    .thumbnail-content h1{
+        font-size: 3.6rem;
+    }
+    .button-custom{
+        padding: 1rem 1.5rem;
+    }
+    .custom-prev{
+        left: 1rem;
+    }
+    .custom-next{
+        right: 1rem;
+    }
+}

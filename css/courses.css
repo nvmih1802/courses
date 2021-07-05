@@ -1,0 +1,134 @@
+.our-courses{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/featured_courses_background.png);
+    background-color: #f9f9f9;
+}
+.our-courses-content{
+    border-radius: 0.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.courses-item{
+    color: var(--bg-secondary);
+    display: flex !important;
+    justify-content: center;
+}
+.courses-item .card{
+    background-color: var(--white);
+    width: 90%;
+    border: none;
+    overflow: hidden;
+}
+.courses-item .card-img > div {
+    position: absolute;
+    z-index: 1;
+}
+.courses-item .card-img > div span{
+    background-color: var(--bg-secondary);
+    color: var(--white);
+    font-weight: 500;
+    padding: 0 1rem;
+}
+.courses-item .card a{
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+.courses-item .card-img a{
+    background-color: white;
+    padding: 0 0.6rem;
+    border-radius: 0.3rem;
+    color: var(--bg-secondary);
+    
+}
+.courses-item .card-img a:hover, .courses-item .card-img a:hover > i{
+    background-color: var(--bg-secondary);
+    color: var(--white);
+    transition: all 0.5s linear;
+}
+.courses-item .card-img i{
+    background-color: var(--white);
+}
+.courses-item .card-img > img{
+    transition: all 0.5s linear;
+}
+.courses-item .card:hover .card-img > img{
+    transform: scale(1.1);
+}
+.evaluate{
+    color: var(--text-third);
+}
+.evaluate i{
+    color: #f4c150;
+}
+.title a{
+    color: var(--bg-secondary);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.statistical{
+    color: var(--text-secondary);
+}
+.info a{
+    color: var(--bg-secondary);
+    font-weight: 600;
+}
+.info a:hover, .title a:hover, .courses-item .card-footer a:hover span,
+.courses-item .card-footer i{
+    color: var(--orange);
+}
+.info img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+.courses-item .card-footer a span{
+    transition: all 0.5s linear;
+    color: var(--text-secondary);
+}
+.courses-item .card-footer span{
+    color: var(--bg-secondary);
+    font-weight: 600;
+}
+.courses-item .card-footer{
+    background-color: var(--white);
+}
+.courses-item .card-body > div{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.courses-item .card-body > div:first-child{
+    margin-top: 0;
+}
+.courses-item .card-body > div:last-child{
+    margin-bottom: 0;
+}
+.slick-our-courses{
+    position: relative;
+}
+.btn-slide{
+    position: absolute;
+    padding: 0.5rem 1.2rem;
+    border: 0.1rem solid var(--text-secondary);
+    border-radius: 0.5rem;
+    transition: all 0.5s linear;
+}
+.btn-slide:hover{
+    background-color: var(--orange);
+    border: 0.1rem solid var(--orange);
+}
+.btn-slide i{
+    font-size: 2rem;
+}
+.prev-slide{
+    right: 2rem;
+    top: -5rem;
+}
+.next-slide{
+    right: 5rem;
+    top: -5rem;
+    margin-right: 2rem;
+}

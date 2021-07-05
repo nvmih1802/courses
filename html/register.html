@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../library/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>Courses</title>
+</head>
+
+<body>
+    <header class="container-fluid pr-0 pl-0 sticky-top">
+        <button type="button" class="btn-back-to-top" id="btn-back-to-top"><i class="fas fa-chevron-up"></i></button>
+        <div class="header-top pt-3 pb-3 container-fluid">
+            <div class="container-xl pl-0 pr-0 d-flex justify-content-center">
+                <ul class="d-md-flex d-none mb-0 list-unstyled flex-grow-1">
+                    <li class="mr-4">
+                        <i class="text-white far fa-envelope"></i>
+                        <a class="ml-2 text-decoration-none header-top__a" href="#">info@yoursite.com</a>
+                    </li>
+                    <li class="">
+                        <span class="text-white">
+                            <i class="fal fa-phone-alt"></i>
+                            <span class="ml-2">123-456-7890</span>
+                        </span>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <div class="mr-4">
+                        <ul class="d-flex mb-0 list-unstyled">
+                            <li class="text-white d-md-inline d-none">
+                                <span class="follow-us">Follow Us :</span>
+                            </li>
+                            <li class="pr-3 pl-3">
+                                <a class="text-decoration-none header-top__a" href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="pr-3 pl-3">
+                                <a class="text-decoration-none header-top__a" href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="pr-3 pl-3">
+                                <a class="text-decoration-none header-top__a" href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="pr-3 pl-3">
+                                <a class="text-decoration-none header-top__a" href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="login-register">
+                        <ul class="d-flex mb-0 list-unstyled">
+                            <li class="pr-3 pl-3">
+                                <a class="text-decoration-none" href="#">Login</a>
+                            </li>
+                            <li class="text-white">
+                                <span>/</span>
+                            </li>
+                            <li class="pr-3 pl-3">
+                                <a class="text-decoration-none" href="#">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-content container-fluid" id="headerContent">
+            <div class="container-xl pl-0 pr-0 d-flex">
+                <div class="header-logo pt-4 pb-4 mr-auto">
+                    <a href="index.html" rel="home">
+                        <img src="../image/logo.png" alt="Edubin">
+                    </a>
+                </div>
+                <div class="d-flex align-items-center mr-4">
+                    <div class="nav-mobile d-lg-none d-block">
+                        <div id="btnToggle" class="btn-toggle">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div id="navMobile" class="nav-mobile-content">
+                            <ul class="nav-mobile-level-1 list-unstyled">
+                                <li>
+                                    <div>
+                                        <a class="action" href="#">
+                                            <span>Home</span>
+                                        </a>
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                    <ul class="list-unstyled nav-mobile-level-2">
+                                        <li>
+                                            <a href="#"><span>All Home Demo</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#">
+                                            <span>Courses</span>
+                                        </a>
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                    <ul class="list-unstyled nav-mobile-level-2">
+                                        <li>
+                                            <a href="#">
+                                                <span>Tutor Dashboard</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Student Registration</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Instructor Registration</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Course Grid Variations</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Advanced Course Filter</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Paid Course Single</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Free Course Single</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#">
+                                            <span>Pages</span>
+                                        </a>
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                    <ul class="list-unstyled nav-mobile-level-2">
+                                        <li>
+                                            <a href="#">
+                                                <span>About Us</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Pricing Table</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Teachers</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>404 Page</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>FAQs</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#">
+                                            <span>Events</span>
+                                        </a>
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                    <ul class="list-unstyled nav-mobile-level-2">
+                                        <li>
+                                            <a href="#">
+                                                <span>Events Calendar</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Events Archive</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Events Grid</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Single Events 1</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Single Events 2</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#">
+                                            <span>Blogs</span>
+                                        </a>
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                    <ul class="list-unstyled nav-mobile-level-2">
+                                        <li>
+                                            <a href="#">
+                                                <span>Blog Lists</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Blog Grid</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Blog Single</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#">
+                                            <span>Shops</span>
+                                        </a>
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                    <ul class="list-unstyled nav-mobile-level-2">
+                                        <li>
+                                            <a href="#">
+                                                <span>Book Shop</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Shop Single</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#">
+                                            <span>Concact</span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-web d-lg-block d-none">
+                        <ul class="nav-web-level-1 list-unstyled d-flex align-items-center mb-0">
+                            <li>
+                                <a class="action" href="#">
+                                    <span>HOME</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="list-unstyled nav-web-level-2">
+                                    <li>
+                                        <a href="#"><span>All Home Demo</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>COURSES</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="list-unstyled nav-web-level-2">
+                                    <li>
+                                        <a href="#">
+                                            <span>Tutor Dashboard</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Student Registration</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Instructor Registration</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Course Grid Variations</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Advanced Course Filter</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Paid Course Single</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Free Course Single</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>PAGES</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="list-unstyled nav-web-level-2">
+                                    <li>
+                                        <a href="#">
+                                            <span>About Us</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Pricing Table</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Teachers</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>404 Page</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>FAQs</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>EVENTS</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="list-unstyled nav-web-level-2">
+                                    <li>
+                                        <a href="#">
+                                            <span>Events Calendar</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Events Archive</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Events Grid</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Single Events 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Single Events 2</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>BLOGS</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="list-unstyled nav-web-level-2">
+                                    <li>
+                                        <a href="#">
+                                            <span>Blog Lists</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Blog Grid</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Blog Single</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>SHOPS</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="list-unstyled nav-web-level-2">
+                                    <li>
+                                        <a href="#">
+                                            <span>Book Shop</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Shop Single</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>CONTACT</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-cart-search d-flex align-items-center mr-5">
+                    <a class="mr-1 p-2" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a class="pl-2 header-cart position-relative" href="#">
+                        <i class="fas fa-cart-plus"></i>
+                        <span class="position-absolute">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content container-fluid pl-0 pr-0">
+        <div class="student-register">
+            <div>
+                <div class="student-register-header container-xl pr-xl-0 pl-xl-0 container-fluid">
+                    <h1>Student Registration</h1>
+                    <div><a href="./index.html">Home</a> / <span>Student Registration</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="form-register">
+            <div class="container-fluid pl-xl-0 pr-xl-0 container-xl">
+                <form action="../html/index.html" id="forms">
+                    <div class="form-register-container">
+                        <div class="row m-auto form-register-content">
+                            <div class="form-group col-md-6">
+                                <label for="firstname">First Name:</label>
+                                <input type="text" class="form-control" id="firstname" placeholder="First Name" name="firstname">
+                                <span class="message"></span>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" class="form-control" id="lastname" placeholder="Last Name" name="lastname">
+                                <span class="message"></span>
+                            </div>
+                        </div>
+                        <div class="row m-auto form-register-content">
+                            <div class="form-group col-md-6">
+                                <label for="uname">User Name</label>
+                                <input type="text" class="form-control" id="uname" placeholder="User Name" name="uname">
+                                <span class="message"></span>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">E-Mail</label>
+                                <input type="text" class="form-control" id="email" placeholder="E-Mail" name="email">
+                                <span class="message"></span>
+                            </div>
+                        </div>
+                        <div class="row m-auto form-register-content">
+                            <div class="form-group col-md-6">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                                <span class="message"></span>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="pwdc">Password confirmation</label>
+                                <input type="password" class="form-control" id="pwdc" placeholder="Password confirmation" name="pwdc">
+                                <span class="message"></span>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row-reverse">
+                            <button type="submit" name="submit" id="btnRegister">Register</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer container-fluid pl-0 pr-0">
+        <div class="footer-main">
+            <div class="container-xl pl-xl-0 pr-xl-0 container-fluid row m-auto footer-main-container">
+                <div class="edubins col-xl-3 col-md-6">
+                    <a href="#"><img src="../image/white-logo.png" alt="white logo"></a>
+                    <p>Edubin perfect for online courses and other institutes. It’s a complete solution with lms
+                        features and
+                        functionalities.</p>
+                    <div class="edubins-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="feature-links col-xl-3 col-md-6">
+                    <h3>Feature Links</h3>
+                    <div class="row">
+                        <ul class="fl-content-first col-6">
+                            <li><i class="fal fa-angle-right"></i><a href="#">About Us</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">Graduation</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">Scholarship</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">Contact</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">Result</a></li>
+                        </ul>
+                        <ul class="fl-content-second col-6">
+                            <li><i class="fal fa-angle-right"></i><a href="#">Admissions</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">International</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">Teachers</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">Alumni</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="support col-xl-3 col-md-6">
+                    <h3>Support</h3>
+                    <div class="support-content">
+                        <ul class="support-container">
+                            <li><i class="fal fa-angle-right"></i><a href="#">Language</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">WordPress</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">Privacy</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">FAQs</a></li>
+                            <li><i class="fal fa-angle-right"></i><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact col-xl-3 col-md-6">
+                    <h3>Contact Us</h3>
+                    <div class="contact-content">
+                        <p>203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</p>
+                        <div>
+                            <div><i class="fas fa-phone-volume"></i><span> +1 23-4567-8920</span></div>
+                            <div><i class="far fa-envelope"></i><span> info@yourmail.com</span></div>
+                            <div><i class="fas fa-globe"></i><span>www.yourdomain.com</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container pl-0 pr-0 d-flex align-items-center flex-wrap">
+                <div class="mr-auto">© 2021 Pixelcurve. All rights reserved.</div>
+                <ul>
+                    <li><a href="#">Language</a></li>
+                    <li><a href="#">WordPress</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="../library/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../library/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+
+</html>
